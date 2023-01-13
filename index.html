@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: cyan;
+      }
+      h1 {
+        color: crimson;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <!--css is of 3 types-->
+        <!-- 1.In line Css
+      2.In page Css
+    3.External Css-->
+
+        <h1 style="background-color: blue">HTML form</h1>
+        <form>
+          <label for="fname" style="background-color: blueviolet"
+            >First name</label
+          >
+          <input type="text" id="fname" name="fname" /><br /><br />
+          <label for="lname" style="background-color: brown">Last name</label>
+          <input type="text" id="lname" name="lname" /><br /><br />
+          <label for="lname" style="background-color: chartreuse">E-mail</label>
+          <input type="email" id="lname" name="lname" /><br /><br />
+
+          <h1 style="background-color: black">Education qualifucation</h1>
+          <input type="checkbox" name="checkbox" />
+          <label for="JSC">JSC</label>
+          <input type="checkbox" name="checkbox" />
+          <label for="SSC">SSC</label>
+          <input type="checkbox" name="checkbox" />
+          <label for="HSC">HSC</label>
+          <input type="checkbox" name="checkbox" />
+          <label for="BSc">BSc</label>
+
+          <h1 style="background-color: whitesmoke">Choose gender</h1>
+          <input type="radio" name="sex" value="male" />
+          <label for="male">male</label><br />
+
+          <input type="radio" name="sex" value="female" />
+          <label for="female">female</label><br /><br />
+
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" /><br /><br />
+
+          <video controls>
+            <source
+              src="./media/vlc-record-2020-01-20-20h02m24s-Vegetable_Names_with_Pictures___Different_Types_Of_Vegetables___Healthy_Vegetables___Kids_Learning(240p).mp4-.mp4"
+              type="video/mp4"
+            />
+          </video>
+
+          <audio controls autoplay>
+            <source
+              src="./media/Aajo_Kaande_Kanone___Audio_Song___Debona_Bhulite___Shovan_Ganguly___Nazrul_Geeti.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+
+          <svg width="200" height="200">
+            <circle
+              cx="100"
+              cy="100"
+              r="80"
+              stroke="red"
+              stroke-width="4"
+              fill="blue"
+            />
+          </svg>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
